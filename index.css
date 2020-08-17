@@ -44,7 +44,7 @@ nav{
     background: #f4f4f4;
     padding: 20px;
     position: sticky;
-    top: 76px;
+    top: 73px;
 }
 nav ul{
     white-space: nowrap;
@@ -229,4 +229,11 @@ form input:valid{
      display: block;
      width: 100%;
  }
+}
+@media screen and (max-height:1200px)
+{
+    .banner .welcome
+    {
+        top:15%;
+    }   
 }
