@@ -21,8 +21,9 @@ header h1{
     margin: 10px auto;
 }
 section img{
-    max-width: 100%;
+    max-width: 120%;
     position: relative;
+    
 }
 .banner .welcome
 {
@@ -31,9 +32,10 @@ section img{
     background: #feb614;
     padding :30px;
     color: white;
+    left:5%;
 }
 .banner h2{
-    font-size: 2em;
+    font-size: 2.2em;
 }
 .banner h2 span{
     font-size: 1.3em;
@@ -116,4 +118,115 @@ footer{
     color: white;
     padding: 10px;
     text-align: center;
+}
+footer span{
+    font-size: 1.1em;
+    font: italic bold;
+}
+/*pseudo clases*/
+nav li a:hover
+{
+    text-decoration: underline;
+}
+.images li:hover{
+    position: relative;
+    bottom: 5px;
+}
+form input:focus{
+    border: 2px solid #f63232;
+    outline: none;
+}
+form input:valid{
+    border:2px solid #71d300;
+}
+
+
+/*Media query */
+@media screen and (max-width:1000px)
+{
+    .banner .welcome h2
+    {   
+        font-size: 1.8em;
+    }
+    .banner .welcome
+    {
+        top:30%;
+    }
+    nav ul{
+        
+        margin-left: 2.5em;
+    
+    }
+} 
+@media screen and (max-width:850px)
+{
+    .banner .welcome h2
+    {   
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width:750px)
+{
+    .banner .welcome h2
+    {   
+        font-size: 1.2em;
+    }
+    .banner .welcome
+    {
+        top:25%;
+    }
+    nav li a{
+        font-size:20px;
+    }
+}
+@media screen and (max-width:650px){
+ 
+    .banner .welcome h2
+    {   
+        font-size: 0.8em;
+    }
+}
+@media screen and (max-width:600px)
+{   
+    .banner .welcome
+    {
+        position: relative;
+        left:0;    
+        text-align: center;
+        font-size: 40px;
+        padding: 3px;
+        top:0;
+    }
+    .banner .welcome br
+    {
+        display: none;
+    }  
+    .banner h2 span{
+        font-size: 1em;
+        
+    }
+    article h2{
+        font-size: 36px;
+    }   
+}
+@media screen and (max-width:550px)
+{
+    nav
+    {
+        top:0;
+    }
+ nav li
+ {  display: block;
+       
+ }
+ header h1{
+     font-size: 0.9em;
+ } 
+ header{
+     position: relative;
+ }
+ .images li{
+     display: block;
+     width: 100%;
+ }
 }
