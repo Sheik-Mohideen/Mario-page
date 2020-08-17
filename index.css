@@ -144,67 +144,24 @@ form input:valid{
 /*Media query */
 @media screen and (max-width:1000px)
 {
-    .banner .welcome h2
-    {   
-        font-size: 1.8em;
-    }
-    .banner .welcome
-    {
-        top:30%;
-    }
+   
     nav ul{
         
         margin-left: 2.5em;
     
     }
 } 
-@media screen and (max-width:850px)
-{
-    .banner .welcome h2
-    {   
-        font-size: 1.5em;
-    }
-}
+
 @media screen and (max-width:750px)
 {
-    .banner .welcome h2
-    {   
-        font-size: 1.2em;
-    }
-    .banner .welcome
-    {
-        top:25%;
-    }
+   
     nav li a{
         font-size:20px;
     }
 }
-@media screen and (max-width:650px){
- 
-    .banner .welcome h2
-    {   
-        font-size: 0.8em;
-    }
-}
+
 @media screen and (max-width:600px)
 {   
-    .banner .welcome
-    {
-        position: relative;
-        left:0;    
-        text-align: center;
-        font-size: 40px;
-        padding: 3px;
-        top:0;
-    }
-    .banner .welcome br
-    {
-        display: none;
-    }  
-    .banner h2 span{
-        font-size: 1em;
-        
-    }
     article h2{
         font-size: 36px;
     }   
@@ -229,11 +186,4 @@ form input:valid{
      display: block;
      width: 100%;
  }
-}
-@media screen and (max-height:1200px)
-{
-    .banner .welcome
-    {
-        top:15%;
-    }   
 }
